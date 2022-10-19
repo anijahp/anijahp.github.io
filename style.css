@@ -111,7 +111,7 @@ header nav ul li.active a {
 @media screen and (max-width: 836px) {
   .ipadpic {
     position: absolute;
-    left:267px;
+    left: 340px;
     z-index: -3;
     top: 190px;
   }
@@ -123,12 +123,11 @@ header nav ul li.active a {
   }
 }
 
-
 .content {
-  position:absolute;
-  left: -44px;
-  right: 50px;
-  top: -95px;
+  position: absolute;
+  left: 0;
+  right: 50%;
+  top: 100px;
   bottom: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -147,32 +146,22 @@ header nav ul li.active a {
   padding-top: 250px;
 }
 
-
 @media screen and (max-width: 836px) {
   .content {
-    padding-top: 243px;
-    
-    padding-left: 89px;
-    
+    padding-top: 280px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .content {
-      padding-top: 88px;
-      padding-left: 0px;
-     
+    padding-top: 330px;
   }
-  
 }
-
-
 
 .content .title {
   font-size: 36px;
-  padding-left: 10px;
   font-weight: bold;
-  /* padding: 1px; */
+  padding: 10px;
   inline-size: 250px;
 }
 
@@ -185,28 +174,21 @@ header nav ul li.active a {
 
 .content .btn {
   background: #3F3D56;
-  font-weight: bolder;
-  font-size: 20px;
-  border-radius: 1.6em;
+  font-weight: lighter;
+  border-radius: 1.5em;
   padding: 1em;
   color: #FFFFFF;
   -ms-flex-item-align: start;
       align-self: flex-start;
-  inline-size: 250px;
-  
-
-    
 }
 
 .icons a {
-  color: #3F3D56;
+  color: #d23b78;
   font-size: 35px;
   margin: 10px;
   padding: 10px;
   background-color: transparent;
 }
-
-
 
 @media screen and (max-width: 500px) {
   .icons a {
